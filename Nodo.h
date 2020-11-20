@@ -6,7 +6,7 @@ class Nodo
         Nodo(std::string nombre);
         void AgregarHijo(Nodo* nodo);
         Nodo* GetPrimerHijo() { return _primerHijo; }
-        Nodo* GetSiguiente() { return _primerHijo; }
+        Nodo* GetSiguiente() { return _siguiente; }
         std::string GetNombre() { return _nombre; }
     private:
         std::string _nombre;
